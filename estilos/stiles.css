@@ -1,0 +1,693 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0 auto;
+}
+.parte-superior {
+    background-color: rgb(121, 27, 27);
+    width: 99%;
+    position: sticky;
+    padding: 7px;
+    top: 0%;
+}
+.navbar {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-right: 15px;
+    color: aqua;
+}
+.hero-box {
+    background-image: url(../imagenes/pexels-pixabay-271639.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 295px 400px 295px;
+    border-style: groove;
+    border-color: rgba(123, 80, 23, 0.327);
+    
+}
+.titulo {
+    color: rgb(170, 144, 15);
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+}
+.subtitulo {
+    color: rgb(170, 144, 15);
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+}
+.hero-box h1 {
+    font-size: 70px;
+    font-size: 70px;font-family: 'Oswald', sans-serif;
+    margin: 10px 20px 10px 20px;
+    display: flex;
+
+    
+}
+.hero-box p {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px 20px;
+    padding-right: 1px;
+    border: 400px;
+    display: flex;
+    
+    
+    
+}
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.56);
+    border-radius: 10px;
+    margin: 20px 30px 200px;
+
+}
+.box {
+    background-image: url(../imagenes/pexels-peter-fazekas-9876563.jpg);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    border-style: hidden;
+
+
+}
+.imagenes {
+    display: flex;
+    gap: 1px;
+    margin: 0px;
+    padding-bottom: 30px;  
+    
+
+}
+.hotel1 {
+    width: 350px;
+    height: 250px;
+    border-style: groove;
+    border-color: rgba(123, 80, 23, 0.327);
+    padding-left: 1px;
+    
+}
+
+.hotel2 {
+    width: 350px;
+    height: 250px;
+    border-style: groove;
+    border-color: rgba(149, 89, 6, 0.566);
+}
+.hotel3 {
+    width: 4200px;
+    height: 250px;
+    border-style: groove;
+    border-color: rgba(95, 65, 26, 0.629);
+    padding-right: px;
+    border-right: 650px;
+}
+.primera {
+    display: flex;
+    width: 100px;
+    color: black;
+    background-color: rgb(122, 122, 122, 0.904);
+    margin-left: 43px;
+    margin-right: 30px;
+    font-size: 20px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+.precio {
+    color: black;
+    background-color: rgb(122, 122, 122, 0.904);
+    text-align: center;
+    margin-left: 43px;
+    margin-right: 30px;
+    font-size: 15px;
+    border-radius: 0px 0px 30px 30px;
+    padding-bottom: 20px;
+    
+}
+.button1 {
+    margin-left: 60px;
+    height: 20px;
+    padding-left: 120px;
+    padding-left: 1px;
+    margin-top: 10px;
+    
+
+    
+}
+.segunda {
+    display: flex;
+    color: black;
+    background-color: rgba(122, 122, 122, 0.904);
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 20px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.precio2 {
+    color: black;
+    background-color: rgb(122, 122, 122, 0.904);
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 15px;
+    border-radius: 0px 0px 30px 30px;
+
+}
+.button2 {
+    margin-left: 50px;
+    height: 20px;
+    padding-left: 110px;
+    padding-left: 1px;
+    margin-top: 10px;
+    
+
+    
+}
+.tercera {
+    display: flex;
+    color: black;
+    background-color: rgb(122, 122, 122, 0.904);
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 20px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    
+    
+}
+.precio3 {
+    color: black;
+    background-color: rgb(122, 122, 122, 0.904);
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 15px;
+    border-radius: 0px 0px 20px 30px;
+}
+.button3 {
+    margin-left: 32px;
+    margin-top: 10px;
+}
+.recomendaciones {
+    text-align: center;
+    color: rgba(255, 225, 0, 0.812);
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.462);
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+}
+.footer {
+    background-color: antiquewhite;
+    padding-left: 650px;
+    padding-top: 30px;
+    padding-bottom: 10x;
+    border-style: dashed;
+    max-height: 200px;
+    
+}
+.footer ul {
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 18px;   
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+nav a:hover {
+    color: antiquewhite;
+}
+section a:hover {
+    color: rgb(127, 93, 50);
+}
+.contenedor {
+    width: 300px;
+    margin-left: 50px;
+}
+.parte-superior {
+    background-color: rgb(121, 27, 27);
+    width: 99%;
+    position: sticky;
+    padding: 7px;
+    top: 0%;
+}
+
+/*esto es para el html login*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(../imagenes/pexels-bruno-maceiras-2467558.jpg);
+    background-position: 560%;
+}
+.parte-superior-login {
+    background-color: rgb(121, 27, 27);
+    width: 99%;
+    position: sticky;
+    padding: 7px;
+    top: 0%;
+}
+.navbar-login {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+.navbar-login ul li {
+    display: inline-block;
+    margin-right: 15px;
+    color: aqua;
+}
+.formulario-caja {
+    background-color: rgba(242, 227, 12, 0.532);
+    width: 200px;
+    margin: 0 auto;
+    padding: 70px;
+    margin-top: 192px;
+    border-radius: 30px;
+    margin-bottom: 140px;
+}
+.formulario {
+    color: rgb(3, 0, 0);
+    
+    
+}
+.formulario input {
+    background-color: rgb(138, 138, 138);
+    margin: 15px;
+
+}
+.contenedor-explicativo {
+    margin-bottom: 30px;
+    background-color: rgba(159, 138, 31, 0.384);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 200px;
+    border-radius: 20px;
+    
+}
+.texto-explicativo {
+      text-align: center;
+      font-size: 40px;
+      font-family: 'Oswald', sans-serif;
+}
+.footer-login {
+    background-color: antiquewhite;
+    padding-left: 650px;
+    padding-top: 30px;
+    padding-bottom: 10x;
+    border-style: dashed;
+    max-height: 200px;   
+}        
+.footer-login ul {
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 18px;   
+    
+}
+
+/*html contactos*/
+
+.parte-superior-contactos {
+    background-color: rgb(121, 27, 27);
+    width: 99.1%;
+    position: sticky;
+    padding: 7px;
+    top: 0%;
+}
+.navbar-contactos {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+.navbar-contactos ul li {
+    display: inline-block;
+    margin-right: 15px;
+    color: aqua;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.384);
+    color: bisque;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+}   
+.numero {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    color: bisque;
+    margin-left: 600px;
+    margin-right: 600px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.enlace-numero {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    color: bisque;
+    font-family: 'Oswald', sans-serif;
+}
+.gmail {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    color: bisque;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 510px;
+    font-family: 'Oswald', sans-serif;
+}
+.enlace-mail {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    color: bisque;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.footer-contacto {
+    background-color: antiquewhite;
+    padding-left: 650px;
+    padding-top: 30px;
+    padding-bottom: 10x;
+    border-style: dashed;
+    max-height: 200px;
+}
+.footer-contacto ul {
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 18px;  
+}
+
+/*sobre nosotros seccion*/
+
+.parte-superior-sobreN {
+    background-color: rgb(121, 27, 27);
+    width: 99.1%;
+    position: absolute;
+    padding: 7px;
+    top: 0%;
+}
+.titulo-entrante {
+    
+
+    position: relative;
+    top: 200px ;
+    left: 900px;
+    font-family: 'Oswald', sans-serif;
+    
+
+
+
+
+}
+.casas-ejemplo {
+    justify-content: center;
+    display: flex;
+}
+.explicativo-porque {
+    display: flex;
+    justify-content: end;
+    padding-left: 700px;
+    margin: 0px;
+    width: 500px;
+    height: 10px;
+    align-items: start;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 1px;
+    position: relative;
+    bottom: 50px;
+    top: 200px;
+    left: 200px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.casa1 {
+    width: 400px;
+    height: 500px;
+    border: 10px;
+    border-radius: 20px;
+    margin-top: 100px;
+    
+}
+.casa2 {
+    width: 400px;
+    height: 500px;
+    margin-top: 600px;
+    margin-left: 300px;
+    border: 10px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    
+    
+}
+.body-sobreN {
+    background-image: url(/imagenes/terraza-borrosa_1203-88.avif);
+    background-size: 1689px;
+    background-position: center;
+}
+.footer-sobre-nosotros {
+    background-color: antiquewhite;
+    padding-left: 650px;
+    padding-top: 30px;
+    padding-bottom: 10x;
+    border-style: dashed;
+    max-height: 200px;
+    
+}
+.footer-sobre-nosotros ul {
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 18px;   
+
+}
+.porque-elejirnos {
+    display: flex;
+    justify-content: end;
+    padding-left: 700px;
+    margin: 0px;
+    width: 500px;
+    height: 10px;
+    align-items: start;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 1px;
+    position: relative;
+    bottom: 10px;
+    top: 780px;
+    right: 400px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.porque-titulo {
+    position: relative;
+    top: 760px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    left: 300px;
+    
+    
+}
+/*ubicaciones*/
+
+
+.parte-superior-ubicaciones {
+    background-color: rgb(121, 27, 27);
+    width: 99.1%;
+    position: relative;
+    padding: 7px;
+    top: 0%;
+}
+.navbar-ubicaciones {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+.navbar-ubicaciones ul li {
+    display: inline-block;
+    margin-right: 15px;
+    color: aqua;
+}
+.contenedor-ubicaciones {
+    width: auto;
+    background-image: url(../imagenes/pexels-peter-fazekas-9876563.jpg);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+    border-style: dashed;
+    padding-bottom: 400px;
+    padding-top: 20px;
+    
+}
+.contenedor-de-imagenes-ubicaciones {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 700px;
+    
+}
+.titulo-ubicaciones {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 800px;
+    left: 600px;
+    background-color: rgba(162, 91, 37, 0.544);
+    border-radius: 10px;
+
+
+}
+.casa1ubicaciones {
+    width: 400px;
+    padding-right: 20px;
+}
+.casa2ubicaciones {
+    width: 400px;
+    height: 223px;
+    padding-right: 20px;
+    display: flex;
+    
+    
+}
+.casa3ubicaciones {
+    width: 400px;
+    height: 223px;
+    padding-right: 20px;
+}
+.casa4ubicaciones {
+    width: 270px;
+    padding-right: 20px;
+}
+.titulo-casa1 {
+    position: absolute;
+    left: 100px;
+    color: rgb(63, 155, 152);
+    top: 1050px;
+    background-color: aliceblue;
+}
+.titulocasa2 {
+    position: absolute;
+    left: 500px;
+    color: rgb(63, 155, 152);
+    top: 1050px;
+    background-color: aliceblue; 
+}
+.titulocasa3 {
+    position: absolute;
+    left: 900px;
+    color: rgb(63, 155, 152);
+    top: 1050px;
+    background-color: aliceblue;
+}
+.titulocasa4 {
+    position: absolute;
+    left: 1300px;
+    color: rgb(63, 155, 152);
+    top: 1130px;
+    background-color: aliceblue;
+}
+.precio1ubicaciones {
+    position: absolute;
+    left: 100px;
+    color: rgb(63, 155, 152);
+    top: 1347px;
+    background-color: aliceblue;
+}
+.comprar1-ubicaciones {
+    position: absolute;
+    left: 100px;
+    color: rgb(63, 155, 152);
+    top: 960px;
+    background-color: aliceblue; 
+}
+.button-ubicaciones {
+    position: absolute;
+    left: 100px;
+    top: 1380px;
+ 
+}
+.precio2ubicaciones {
+    position: absolute;
+    left: 570px;
+    color: rgb(63, 155, 152);
+    top: 1347px;
+    background-color: aliceblue;
+}
+.button2-ubicaciones {
+    position: absolute;
+    left: 590px;
+    top: 1380px;
+}
+.precio3ubicaciones {
+    position: absolute;
+    left: 970px;
+    color: rgb(63, 155, 152);
+    top: 1347px;
+    background-color: aliceblue;
+}
+.button3-ubicaciones {
+    position: absolute;
+    left: 990px;
+    top: 1380px;
+}
+.precio4 {
+    position: absolute;
+    left: 1340px;
+    color: rgb(63, 155, 152);
+    top: 1347px;
+    background-color: aliceblue;
+}
+.button4-ubicaciones {
+    position: absolute;
+    left: 1350px;
+    top: 1380px;
+}
+
+
+
+.footer-ubicaciones {
+    background-color: antiquewhite;
+    padding-left: 650px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-style: dashed;
+    max-height: 200px;
+    position: relative;
+    top: 280px;
+    margin-bottom: 40px;
+}
+.footer-ubicaciones ul {
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    
+}
